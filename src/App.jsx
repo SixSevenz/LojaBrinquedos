@@ -1,15 +1,14 @@
 import React from 'react'
-import Header from './components/Header'
-import Corpo from './components/Corpo'
-import Footer from './components/Footer'
-
+import Footer from './components/Footer.jsx'
+import Header from './components/Header.jsx'
+import Corpo from './components/Corpo.jsx'
 const App = () => {
   return (
-    <>
-      <Header />
-      <Corpo />
-      <Footer />
-    </>
+    <div>
+    <Header/>
+    <Corpo/>
+    <Footer/>
+    </div>
   )
 }
 
